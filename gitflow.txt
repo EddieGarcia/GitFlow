@@ -4,4 +4,6 @@ Scenario 1: Create repo localy and then push to server
 2. edit / create files					
 3. git add *							- add files to staging areea - git tracks changes in these files
 4. git commit -m "Commit mesage"		- commit changes localy
-5. git push origin master				- push changes to remote repo
+5. git remote add origin <REPO_URL>		- add the URL for the remote repository where your local repository will be pushed
+6. git remote -v						- verify new url
+7. git push origin master				- push changes to remote repo 
